@@ -27,7 +27,7 @@ static void window_load(Window *window) {
 
   // create message layer
   message_text_layer = text_layer_create((GRect) { .origin = { 0, 50 }, .size = { bounds.size.w, 50 } });
-  text_layer_set_text(message_text_layer, "Namasthe!");
+  text_layer_set_text(message_text_layer, "Namaskara");
   text_layer_set_text_alignment(message_text_layer, GTextAlignmentCenter);
   text_layer_set_background_color(message_text_layer, GColorBlack);
   text_layer_set_text_color(message_text_layer, GColorWhite);
